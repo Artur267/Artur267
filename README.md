@@ -103,10 +103,10 @@ Manche sagen „faul“, ich nenne es „effizient bis zur Automation“.
 
 | Projekt | Beschreibung |
 |--------|--------------|
-| [`schichtplaner`](https://github.com/deinusername/schichtplaner) | **OptaPlanner + Java + REST API**: Schichtplanung für Menschen, nicht Maschinen |
-| [`deal-scraper`](https://github.com/deinusername/deal-scraper) | Findet täglich Amazon-Deals mit 50 % Rabatt und schickt sie an meinen WhatsApp-Channel. 💸 |
-| [`fondi-scheduler`](https://github.com/deinusername/fondi-scheduler) | Ein geheimer Task-Scheduler, benannt nach meiner Katze. Erkennt, wann ich produktiv bin… und ignoriert es. |
-| [`scripts-n-trash`](https://github.com/deinusername/scripts-n-trash) | Eine lose Sammlung von Scripten, von “nützlich” bis “was war ich da am tun”. |
+| [`schichtplaner`](https://github.com/Artur267/schichtplaner) | **OptaPlanner + Java + REST API**: Schichtplanung für Menschen, nicht Maschinen |
+| [`deal-scraper`](https://github.com/Artur267/amzndeal-scraper) | Findet täglich Amazon-Deals mit 50 % Rabatt und schickt sie an meinen WhatsApp-Channel. 💸 |
+| [`fondi-scheduler`](https://github.com/Artur267/fondi-scheduler) | Ein geheimer Task-Scheduler, benannt nach meiner Katze. Erkennt, wann ich produktiv bin… und ignoriert es. |
+| [`scripts-n-trash`](https://github.com/Artur267/scripts-n-trash) | Eine lose Sammlung von Scripten, von “nützlich” bis “was war ich da am tun”. |
 
 ---
 
