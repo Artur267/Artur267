@@ -133,7 +133,7 @@ Manche sagen „faul“, ich nenne es „effizient bis zur Automation“.
 ## 📫 Kontakt
 
 📬 **Mail:** [Artur.Donis@gmx.de]  
-🌐 **Portfolio/Seite:** TBD!! 
+🌐 **Portfolio/Seite:** https://www.arturdonis.de
 
 ---
 
