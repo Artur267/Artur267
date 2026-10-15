@@ -1,140 +1,72 @@
-# Hey, I'm Artur 👋
+# Artur Donis
 
-👨‍💻 Backend Engineer | 🧠 Autodidakt durch YouTube & Schmerz | ☕ Kaffeegetriebene Automatisierung
+AI Specialist bei [RUHR24](https://www.ruhr24.de) · Entwickler · Ruhrgebiet
 
-Willkommen in meinem kleinen Maschinenraum!  
-Ich baue Software, um nicht mehr dieselben langweiligen Aufgaben doppelt machen zu müssen.  
-Manche sagen „faul“, ich nenne es „effizient bis zur Automation“.
+Ich entwickle die internen Werkzeuge einer regionalen Nachrichtenredaktion und binde dafür auch KI in die täglichen Abläufe ein. Mich interessiert die Schnittstelle zwischen Redaktion, Produkt und Code: Wo verliert ein Team Zeit, und wie sieht ein Tool aus, das diese Zeit zurückgibt, ohne dass jemand eine Anleitung lesen muss?
 
----
-
-## 🧠 Über mich
-
-- 🔨 Selbst beigebracht, was man sonst in Bootcamps teuer verkauft – inklusive Bugs
-- 🛠️ Programmiere mit Fokus auf **Backend**, Automatisierung und API-Zauberei
-- 🐍 Bevorzugte Sprachen: `Python`, `Java`, und meistens doch `C++`
-- 🔄 Aktuell baue ich einen **Schichtplaner**, der gesetzeskonform und menschenfreundlich ist (im Gegensatz zu Excel)
-- 🕵️‍♂️ Nebenbei entsteht ein **Scraper**, der sich durch Webseiten gräbt wie ich durch Stack Overflow
-- 😼 Fun Fact: Ich habe ein Script, das meine Kaffeemaschine *pünktlich zum ersten Merge* anwirft (…fast)
+Ich komme aus Mediendesign und UX. Deshalb sollen meine Tools auch für Leute funktionieren, die keine Entwickler sind.
 
 ---
 
-## ⚙️ Mein Tech Stack (…oder was VS Code sagt, wenn ich `strg+space` drücke)
+## Arbeit bei RUHR24
 
-### 👨‍💻 Sprachen & Plattformen
+### ContentOS
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
-![YAML](https://img.shields.io/badge/YAML-000000?style=flat&logo=yaml&logoColor=white)
+Ein internes Redaktionstool, das ich seit Dezember 2025 aufbaue (400+ Commits, 25+ Module). Es wird täglich von der Redaktion genutzt.
 
-### 🧱 Frontend
+- **Erstellen:** KI-gestützter Artikel-Editor mit Prüfung vor dem CMS-Push, Bildeditor (React-Konva) mit Ebenen, Freisteller, Upscaling und Bildgenerierung, Artikelimport per Scraper
+- **Analytics (ContentSignal):** Traffic-Dashboard auf Basis von Kilkaya und BigQuery, Google-Discover-Radar, KI-Bewertung von Überschriften und Titelbildern
+- **Automatisierung:** Verbreitung von Artikeln per Push und Social mit einem Klick, Datawrapper-Anbindung, Generator für Artikel-Widgets
+- **MCP-Server:** Artikel, Bilder, Bildarchiv und Quizfragen lassen sich direkt aus Claude heraus steuern (Streamable HTTP, OAuth)
+- **Plattform:** Google-OAuth, API-Keys mit Berechtigungen, Rollen- und Tool-Rechte mit Admin-Oberfläche und Audit-Log, Nutzungsstatistik in BigQuery
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
-![Canvas API](https://img.shields.io/badge/Canvas_API-black?style=flat)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white)
+### Weitere Projekte
 
-### 🛠 Backend & API
+- **R24 Language Tool:** LLM-Backend (Python/FastAPI) für Umschreiben, Überschriften und SEO-Metadaten, mit mehreren Modellanbietern. Übernommen und an ContentOS angebunden.
+- **Widgets:** Interaktive PHP-Widgets und Quizze für Reader Engagement, auf einer eigenen Subdomain gehostet und per iframe in Artikel eingebunden
+- **n8n-Workflows:** RSS-Aufnahme mit Deduplizierung, Teams-Benachrichtigungen, GraphQL- und MCP-Anbindungen
+- **CMS-Anbindung:** Text-zu-XML-Pipeline für die automatische Übergabe von Artikeln ans CMS
+- **Infrastruktur:** Google-Cloud-Verwaltung, Migration in EU-Regionen, CI/CD mit GitHub Actions
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socket.io&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-0080FF?style=flat)
+### Arbeitsweise
 
-### 🗃️ Datenbanken
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-
-### ☁️ DevOps, Infrastruktur & Tools
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-000000?style=flat&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-
-### 🧪 Testing & Debugging
-
-![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat&logo=java&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Insomnia](https://img.shields.io/badge/Insomnia-4000BF?style=flat&logo=insomnia&logoColor=white)
-![Chrome DevTools](https://img.shields.io/badge/Chrome--DevTools-4285F4?style=flat&logo=google-chrome&logoColor=white)
-
-### 🧙‍♂️ ...und absurde Dinge, die ich mal ausprobiert hab:
-
-![QBasic](https://img.shields.io/badge/QBasic-000000?style=flat)
-![Brainfuck](https://img.shields.io/badge/Brainfuck-grey?style=flat)
-![x86 Assembly](https://img.shields.io/badge/x86--ASM-333333?style=flat)
-![Blender Python](https://img.shields.io/badge/Blender%20Scripting-F5792A?style=flat&logo=blender&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-![Godot](https://img.shields.io/badge/Godot-483D8B?style=flat&logo=godot-engine&logoColor=white)
+- Neue Tools gehen früh in Produktion, sind zunächst aber nur für Admins sichtbar. Die Redaktion bekommt sie nach der Abnahme.
+- Fehler behebe ich an der Ursache. Wird ein Modul zu groß, teile ich es auf.
+- Oberflächen verwenden Design-Tokens, Icons und eine klare Button-Hierarchie. In der UI stehen keine Fachbegriffe.
+- Ich entwickle mit Claude Code und achte bei eingebauter KI auf die Kosten, unter anderem über das Prompt-Design.
 
 ---
 
-## 📦 Projekte, die ich benutze (und manchmal pflege)
+## Eigenes Projekt: Schichtplaner
 
-| Projekt | Beschreibung |
-|--------|--------------|
-| [`schichtplaner`](https://github.com/Artur267/schichtplaner) | **OptaPlanner + Java + REST API**: Schichtplanung für Menschen, nicht Maschinen |
-| [`deal-scraper`](https://github.com/Artur267/amzndeal-scraper) | Findet täglich Amazon-Deals mit 50 % Rabatt und schickt sie an meinen WhatsApp-Channel. 💸 |
-| [`fondi-scheduler`](https://github.com/Artur267/fondi-scheduler) | Ein geheimer Task-Scheduler, benannt nach meiner Katze. Erkennt, wann ich produktiv bin… und ignoriert es. |
-| [`scripts-n-trash`](https://github.com/Artur267/scripts-n-trash) | Eine lose Sammlung von Scripten, von “nützlich” bis “was war ich da am tun”. |
+Ich habe schon Schichtplaner mit OptaPlanner gebaut und entwickle gerade einen neuen von Grund auf, als White-Label-SaaS auf Basis von Timefold. Geplant sind atomare Schichten statt fest verdrahteter Wochenmuster, Soft Constraints pro Mitarbeiter, saubere Modulgrenzen und später eine KI-Schicht, die Änderungen nur vorschlägt und nicht selbst entscheidet.
+
+Ältere Version: [schichtplaner](https://github.com/Artur267/schichtplaner)
 
 ---
 
-## 🎯 Was ich mag
+## Stack
 
-- ✅ Klare REST-Schnittstellen mit Logs, die nicht schreien
-- 📦 Dockerized everything, weil "läuft bei mir" nicht reicht
-- 💡 Projekte, die **mir** helfen – dann vielleicht auch anderen
-- 🧪 Neues lernen durch *Doing & Googling*, nicht durch Zertifikate
-- 🛠️ Tools mit echtem Impact. Kein Hello-World-Overkill.
-
----
-
-## 🤓 Fun Stuff
-
-- 🧠 Ich lerne gerade GPU-Shader, weil ich dachte "wie schwer kann’s sein?"  
-- 🐈 Meine Katze Fondi (auch: „Ofni der Debugger“) sitzt gerne auf meiner Tastatur – und commitet manchmal
-- ⏱️ Ich habe einmal beim Wasserfasten 100 Pullups gemacht. War ne schlechte Idee.
-- 🧊 Ich benutze ein Dehydrationsgerät, aber hauptsächlich für dumme Experimente
-- 🏔️ Ich fahre seit 20 Jahren MTB – im Winter baue ich Builds, im Sommer Waden
+- **Sprachen:** TypeScript, JavaScript, Java, Python, C++, SQL, PHP, Lua
+- **Frontend:** React, Vite, React-Konva, Three.js
+- **Backend:** Node.js, Express, FastAPI, Spring Boot
+- **Monorepo und Tests:** Nx, Vitest
+- **Cloud:** Google Cloud (Cloud Run, BigQuery, Firestore, Cloud Storage, Secret Manager), Docker, GitHub Actions, Hetzner
+- **KI:** Claude, Gemini, Vertex AI, Model Context Protocol (MCP)
+- **Automatisierung und Daten:** n8n, Kilkaya, Supabase, Google Sheets
+- **Constraint-Solver:** Timefold, OptaPlanner
 
 ---
 
-## 📫 Kontakt
+## Studium und Interessen
 
-📬 **Mail:** [Artur.Donis@gmx.de]  
-🌐 **Portfolio/Seite:** https://www.arturdonis.de
+Neben der Arbeit studiere ich (IT-Management, Computergrafik, Mathematik). Privat beschäftige ich mich mit Low-Level-Rendering: OpenGL und C++, Scene Graphs, Z-Buffering, BSP und der Frage, wie GoldSrc und die PS1 ihre Grafik umgesetzt haben. Aus dem Interesse sind ein Breakout-Klon in C++/SFML und ein Three.js-Redesign meines Portfolios entstanden. Außerdem beschäftige ich mich seit längerem mit Web-Sicherheit (CORS, CSP, Absicherung eigener Widgets).
+
+Abseits vom Rechner fahre ich seit rund 20 Jahren Mountainbike: Enduro, Gravel und Bikepark.
 
 ---
 
-<sub>Wenn du bis hier gelesen hast, hast du vermutlich schon den ersten Issue gefunden. Gratuliere.</sub>
+## Kontakt
+
+- Website: [arturdonis.de](https://www.arturdonis.de)
+- Mail: Artur.Donis@gmx.de
